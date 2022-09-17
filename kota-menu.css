@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.k-menu{
+    letter-spacing: 3px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: rgb(154, 242, 216);
+    height: 20vh;
+    width: 100%;
+    font-weight: bolder;
+}
+
+.kota-hero{
+    background-image: url(./FB_IMG_1663420490758.jpg);
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.kota-hero::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: black;
+    opacity: .9;
+    z-index: 1;
+}
+
+.tabs{
+    background-color: rgb(180, 173, 173);
+    z-index: 2;
+    width: 300px;
+    position: relative;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .9);
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 50px;  
+}
+
+.t-buttons{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(154, 242, 216);
+}
+
+.button{
+    padding: 10px 15px;
+    border: none;
+    font-weight: bolder;
+    background-color: rgb(154, 242, 216);
+    letter-spacing: 1px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.k-price{
+    padding-top: 25px;
+    letter-spacing: 1px;
+}
+
+.t-content{
+    padding-left: 25px;
+    padding-bottom: 20px;
+    display: none;
+}
+
+.list li{
+    padding-bottom: 5px;
+    font-weight: 450;
+}
+
+.ghost.button{
+    background-color: rgb(228, 223, 223);
+}
+
+.ghost.t-content{
+    background-color: rgb(228, 223, 223);
+    display: block;
+}
+
+footer{
+    background-color: black;
+    color:  rgb(235, 233, 233) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+}
